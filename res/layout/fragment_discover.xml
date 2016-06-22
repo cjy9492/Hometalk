@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00afd5"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/current_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="工具"
+                android:textColor="#fff" />
+            <Button
+               
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/chat_logout_icon" />
+        </RelativeLayout>
+ <LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:background="#fff"
+        	android:layout_marginTop="10dp"
+        	
+        	android:id="@+id/discover_btn"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/find_friends"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:layout_marginLeft="10dp"
+	    android:textSize="20dp"
+	    android:text="家庭记事本"
+	    android:textColor="#000" />
+<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+   </LinearLayout>
+    <LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+      	
+        	android:layout_marginTop="20dp"
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_earthquake"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/earthquake"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:text="地震预警"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+   <LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:layout_marginTop="10dp"
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_weather"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/weather"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="天气预报"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+   <LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:layout_marginTop="30dp"
+        	
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_location"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/location"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="我所在的位置"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+<LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:layout_marginTop="10dp"
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_random"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/random"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="今天谁洗碗"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+   <LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:layout_marginTop="30dp"
+        	
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_birthday"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/birthday"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="亲友生日本"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+<LinearLayout
+     		android:layout_width="match_parent"
+           	android:layout_height="wrap_content"
+        	android:paddingLeft="30dp"
+        	android:paddingTop="5dp"
+        	android:paddingRight="5dp"
+        	android:layout_marginTop="40dp"
+        	android:background="#fff"
+        	
+
+        	android:id="@+id/discover_about"
+     >
+
+	 <TextView
+	     android:layout_width="30dp"
+	     android:layout_height="30dp"
+	     android:background="@drawable/about"
+	     android:textColor="#000" />
+
+	<Button
+	    
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:background="#fff"
+	    android:textSize="20dp"
+	    android:layout_marginLeft="10dp"
+	    android:text="关于"
+	    android:textColor="#000" />
+	<LinearLayout
+   android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+    
+	<ImageView
+	    android:layout_width="30dp"
+	    android:layout_height="30dp"
+	    android:background="@drawable/chat_go"
+	     />
+</LinearLayout>
+
+   </LinearLayout>
+</LinearLayout>

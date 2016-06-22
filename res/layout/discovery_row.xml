@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/row"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_vertical">
+
+	<TextView android:id="@+id/text1"
+		android:layout_width="wrap_content" android:layout_height="match_parent"
+		android:maxWidth="200dip" 
+		android:textSize="22sp"
+		android:layout_marginTop="10dip"
+		android:text="第1组第1项" />
+	<TextView android:id="@+id/created" android:layout_width="wrap_content"
+		android:layout_height="35px" android:layout_alignParentRight="true"
+		android:layout_marginLeft="10dip" 
+		android:layout_marginTop="10dip"
+		android:text="2011年10月30日" />
+
+</RelativeLayout>
+

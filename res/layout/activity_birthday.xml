@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00afd5"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+<Button
+            android:id="@+id/birthday_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_back"           
+            android:textColor="#fff" />
+            <TextView
+              
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="亲友生日本"
+                android:textColor="#fff" />
+            <Button
+               
+               android:id="@+id/birthday_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/add_riji" />
+        </RelativeLayout>
+
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp" >
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="3dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/view2"
+            android:layout_centerHorizontal="true"
+            
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/bt_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1"
+            android:layout_centerHorizontal="true"
+            
+            android:text="Button" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="150dp"
+            android:layout_height="3dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/bt_mom_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view2"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_dad"
+            android:layout_marginRight="16dp"
+           
+            android:layout_toLeftOf="@+id/view2"
+            android:text="父亲" />
+
+        <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_mom_1"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/view2"
+            android:text="母亲" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_me"
+            android:layout_centerHorizontal="true"
+            android:text="我" />
+
+        <Button
+            android:id="@+id/bt_dad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/view2"
+            android:text="Button" />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/android:list"
+        	 android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="none"
+         />
+    </LinearLayout>
+    <RelativeLayout
+    android:id="@+id/birth_view"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#99000000"
+    android:translationY="-150dp"
+ 
+   
+    >
+    <Button
+        android:id="@+id/birthday_click_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5.0dp"
+        android:text="添加父母生日" />
+    <Button
+        android:id="@+id/birthday_click_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/birthday_click_camera"
+        android:text="添加更多生日" />
+     <Button
+        android:id="@+id/birthday_click_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/birthday_click_local"
+        android:text="取消" />
+</RelativeLayout>
+
+</RelativeLayout>

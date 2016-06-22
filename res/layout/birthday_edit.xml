@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+
+  <TextView
+     
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      android:text="关系" />
+
+ <EditText
+      android:id="@+id/birther_guanxi"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+       />
+   <TextView
+      
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      android:text="姓名" />
+
+ <EditText
+      android:id="@+id/birther_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      />
+     <TextView
+     
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="30dp"
+      android:text="生日" />
+
+<EditText
+      android:id="@+id/birther_date"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="date" />
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+<Button
+    android:id="@+id/birtherday_edit_add"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="确定" />
+
+<Button
+    android:id="@+id/birtherday_edit_cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="取消" />
+</LinearLayout>
+</LinearLayout>
